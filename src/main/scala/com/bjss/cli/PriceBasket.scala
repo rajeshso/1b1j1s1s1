@@ -19,6 +19,7 @@ object PriceBasket {
           if (maybeItem.nonEmpty) basket += maybeItem.get
         })
         println(s"Total price is ${basket.basketItemsTotalPrice}")
+        //
       }
     }
   }
